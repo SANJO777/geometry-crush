@@ -1,0 +1,42 @@
+[gd_scene load_steps=11 format=3 uid="uid://dobt0w50em506"]
+
+[ext_resource type="Script" uid="uid://exf8ualpm5d4" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://bwujchvhjrsej" path="res://inicializar_variables.gd" id="2_ir8iy"]
+[ext_resource type="Script" uid="uid://b2r17f7bob1n8" path="res://generar_tablero.gd" id="3_hqns4"]
+[ext_resource type="Script" uid="uid://cxaukepcb3j5b" path="res://detectar_coincidencias.gd" id="4_x0ka3"]
+[ext_resource type="Script" uid="uid://d2hrrv4hm18rg" path="res://eliminar_figuras.gd" id="5_0h7mo"]
+[ext_resource type="Script" uid="uid://43yhrunnq7gr" path="res://rellenar_tablero.gd" id="6_nr8wp"]
+[ext_resource type="Script" uid="uid://boch47ea5ua53" path="res://sumar_puntos.gd" id="7_d2bti"]
+[ext_resource type="Script" uid="uid://byur8wossr586" path="res://verificar_condiciones.gd" id="8_ta5nu"]
+[ext_resource type="Script" uid="uid://bwjgkkgw2chm8" path="res://actualizar_ui.gd" id="9_flf07"]
+[ext_resource type="Script" uid="uid://ckhsg4mjyvev" path="res://reiniciar_nivel.gd" id="10_k73cj"]
+
+[node name="mecánica_principal" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="inicializar_variables" type="Node" parent="."]
+script = ExtResource("2_ir8iy")
+
+[node name="generar_tablero" type="Node" parent="."]
+script = ExtResource("3_hqns4")
+
+[node name="detectar_coincidencias" type="Node" parent="."]
+script = ExtResource("4_x0ka3")
+
+[node name="eliminar_figuras" type="Node" parent="."]
+script = ExtResource("5_0h7mo")
+
+[node name="rellenar_tablero" type="Node" parent="."]
+script = ExtResource("6_nr8wp")
+
+[node name="sumar_puntos" type="Node" parent="."]
+script = ExtResource("7_d2bti")
+
+[node name="verificar_condiciones" type="Node" parent="."]
+script = ExtResource("8_ta5nu")
+
+[node name="actualizar_ui" type="Node" parent="."]
+script = ExtResource("9_flf07")
+
+[node name="reiniciar_nivel" type="Node" parent="."]
+script = ExtResource("10_k73cj")
