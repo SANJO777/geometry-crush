@@ -3,7 +3,6 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	$inicializar_variables.inicializar_variables()
 	$generar_tablero.generar_tablero()
 	$detectar_coincidencias.detectar_coincidencias()
 	$eliminar_figuras.eliminar_figuras()
