@@ -1,0 +1,1 @@
+Haciendo un gameplay prototype de la mecánica principal de Candy Crush para practicar mis conocimientos sobre los fundamentos de la programación, usando como tutor práctico a la IA Geminis y ChatGPT- <3
